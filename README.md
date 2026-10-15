@@ -31,3 +31,7 @@ Este protótipo não possui servidor, autenticação, dados compartilhados, impo
 ## Publicar no GitHub Pages
 
 O workflow `.github/workflows/pages.yml` testa, compila e publica o protótipo a cada push em `main`. No repositório do GitHub, abra **Settings → Pages → Build and deployment → Source** e selecione **GitHub Actions**. Depois, em **Actions → Publicar protótipo no GitHub Pages → Run workflow**, execute a publicação. O endereço final é informado pelo job de publicação; não considere o site publicado até esse job concluir. A disponibilidade do Pages depende da visibilidade do repositório e do plano do GitHub.
+
+## Avaliar sem instalação
+
+`docs/prototipo.png` mostra a tela de demonstração. Para usar o protótipo sem instalar Node.js ou executar comandos, baixe `docs/compasso-demo.html` pela opção **Download raw file** do GitHub e abra o arquivo baixado no navegador. O HTML contém o aplicativo, os estilos e a exportação Excel. As fontes web são opcionais. Esta cópia é uma demonstração estática gerada da versão atual; futuras alterações no código exigem gerá-la novamente.
